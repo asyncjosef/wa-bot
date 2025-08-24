@@ -1,22 +1,25 @@
 {
-  "name": "testing",
+  "name": "itachi-bot",
   "version": "1.0.0",
-  "description": "Itachi WhatsApp Bot",
+  "description": "Itachi WhatsApp Bot using Baileys",
   "main": "ita.js",
   "scripts": {
     "start": "node ita.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["whatsapp-bot", "itachi", "baileys"],
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "yt-dlp",
+    "itachi"
+  ],
   "author": "josef",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "baileys": "^6.7.0",
+    "sanka-baileyss": "^1.0.0",
     "pino": "^8.15.0",
-    "node-fetch": "^3.3.2",
-    "jimp": "^0.22.10",
-    "wa-sticker-formatter": "^4.4.4",
-    "axios": "^1.7.0"
+    "yt-search": "^2.10.4"
   }
 }
